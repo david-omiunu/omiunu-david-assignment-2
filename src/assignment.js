@@ -34,6 +34,7 @@ const assignment = {};
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.length;
 }
+
 // assignment.countEvenNumbers = countEvenNumbers;
 
 /**
