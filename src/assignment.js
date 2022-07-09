@@ -13,9 +13,13 @@ const assignment = {};
  * @param {Array} arrayOfNumbers the array of numbers to sum
  * @returns number the sum of the numbers
  */
-function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-}
+ function sumOfNumbers(arrayOfNumbers) {
+    let total = 0;
+    for (let i = 0; i < arrayOfNumbers.length; i+=1) {
+      total += arrayOfNumbers[i];
+    }
+      return total;
+  }
 // assignment.sumOfNumbers = sumOfNumbers;
 
 /**
