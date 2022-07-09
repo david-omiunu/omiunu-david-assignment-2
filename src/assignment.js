@@ -21,6 +21,7 @@ const assignment = {};
       return total;
   }
 
+  assignment.sumOfNumbers = sumOfNumbers
 /**
  * Challenge - 2
  * 
